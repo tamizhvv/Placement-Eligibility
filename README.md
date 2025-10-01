@@ -1,72 +1,45 @@
-# guvi_projects
+Placement Eligibility Streamlit Application
 
-# guvi_projects
-I started this project from scratch — not just building a dashboard, but also generating realistic synthetic data, creating a relational database, applying Object-Oriented Programming (OOP) in Python, writing SQL queries, and building an interactive Streamlit app.
+Overview:
+This project is an interactive Streamlit application that allows placement teams to filter and identify eligible students based on customizable criteria. It leverages synthetic data generation (Faker), relational databases, SQL queries, and OOP principles in Python to provide actionable insights for student placement readiness.
 
-Here's a breakdown of what I tackled:
+Key Features:
 
- 1. Created MySQL Database & Tables
-Set up a MySQL database called placement_app.
+Handles both numerical and categorical student performance metrics including programming scores, soft skills, internships, and mock interviews.
 
-Designed and created four interrelated tables:
+Implements a Python OOP-based structure for modular and reusable code.
 
-students: basic info (name, age, email, etc.)
+Generates realistic student data using the Faker library for testing and simulation.
 
-programming: coding skills and project work
+Writes SQL queries to extract insights such as top performers, average scores per batch, and placement readiness distribution.
 
-soft_skills: communication, leadership, etc.
+Deployed as a Streamlit web application for interactive filtering and visualization of eligible candidates.
 
-placements: placement status and outcomes
+Tech Stack:
 
-2. Generated Synthetic Data using Faker
-Used the faker library and random module to generate fake student profiles.
+Python: pandas, numpy, streamlit, faker, sqlite3
 
-Created 100+ rows of consistent, realistic data across all tables.
+Database: SQLite / MySQL
 
-Inserted them into the database using Python.
+Deployment: Streamlit
 
- 3. Wrote SQL Queries for Insights
-Came up with 10 useful insights, like:
+Version Control: GitHub
 
-Average performance per batch
+Project Highlights:
 
-Top students by coding skills
+Designed four interrelated tables: Students, Programming, Soft Skills, Placements.
 
-Who’s placed and who’s not
+Developed dynamic filtering capabilities in Streamlit for eligibility criteria like minimum problems solved or soft skills score.
 
-Placement packages by company, and more.
- 4. Used Python + OOP to Connect to MySQL
-Built a Database class to handle database connections and queries cleanly using object-oriented principles.
+Integrated SQL-based analytics to generate actionable insights for placement management.
 
- 5. Built the Frontend in Streamlit
-Created a multi-page interface:
+Built a user-friendly interface for real-time candidate evaluation.
 
-Home: Welcome message
+Project repository: GitHub Link
+ (replace # with your GitHub URL)
 
-View Students: See raw data
+Live demo: Streamlit App Link
+ (replace # with your Streamlit URL)
 
-Check Eligibility: Filter students by communication & problem-solving scores
-
-Analytics: Display insights and dashboards
-
-Tech Stack
-Backend: Python, MySQL
-
-Frontend: Streamlit
-
-Data Generation: Faker
-
-Database Connectivity: mysql.connector
-
- Why This Project?
-I wanted to build something close to what EdTech platforms or training institutes might use to track student progress. This project helped me practice:
-
-Database design
-
-Writing and debugging SQL queries
-
-Clean Python code using OOP
-
-Building a full app frontend in Streamlit
-
-Handling real-life debugging (like broken joins, nulls, and orphan rows 😅)
+Outcome:
+The project demonstrates practical skills in data simulation, database design, SQL analytics, OOP programming, and interactive app deployment. It is ideal for educational institutions or placement teams seeking to automate and streamline student eligibility evaluation.
