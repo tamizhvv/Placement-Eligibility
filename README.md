@@ -35,11 +35,6 @@ Integrated SQL-based analytics to generate actionable insights for placement man
 
 Built a user-friendly interface for real-time candidate evaluation.
 
-Project repository: GitHub Link
- (replace # with your GitHub URL)
-
-Live demo: Streamlit App Link
- (replace # with your Streamlit URL)
 
 Outcome:
 The project demonstrates practical skills in data simulation, database design, SQL analytics, OOP programming, and interactive app deployment. It is ideal for educational institutions or placement teams seeking to automate and streamline student eligibility evaluation.
